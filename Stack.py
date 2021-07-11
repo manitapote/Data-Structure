@@ -16,3 +16,6 @@ class Stack:
 
     def size(self):
         return len(self.items)
+
+    def view_stack(self):
+        print(self.items)
